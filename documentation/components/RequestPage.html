@@ -1,0 +1,1208 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>bob-tours documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">bob-tours documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>RequestPage</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/pages/request/request.page.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-request</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./request.page.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./request.page.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#day_after_tomorrow">day_after_tomorrow</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#formBuilder">formBuilder</a>
+                            </li>
+                            <li>
+                                <a href="#isBusTrip">isBusTrip</a>
+                            </li>
+                            <li>
+                                <a href="#request">request</a>
+                            </li>
+                            <li>
+                                <a href="#tour">tour</a>
+                            </li>
+                            <li>
+                                <a href="#two_years_later">two_years_later</a>
+                            </li>
+                            <li>
+                                <a href="#validationForm">validationForm</a>
+                            </li>
+                            <li>
+                                <a href="#validationMessages">validationMessages</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#cancel">cancel</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#confirm">confirm</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#prepareFormValidation">prepareFormValidation</a>
+                            </li>
+                            <li>
+                                <a href="#send">send</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(modalCtrl: ModalController, navParams: NavParams, toastCtrl: ToastController, formBuilder: <a href="https://angular.io/api/forms/FormBuilder" target="_blank">FormBuilder</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/pages/request/request.page.ts:19</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>modalCtrl</td>
+                                                  
+                                                        <td>
+                                                                    <code>ModalController</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>navParams</td>
+                                                  
+                                                        <td>
+                                                                    <code>NavParams</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>toastCtrl</td>
+                                                  
+                                                        <td>
+                                                                    <code>ToastController</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>formBuilder</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/forms/FormBuilder" target="_blank" >FormBuilder</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="cancel"></a>
+                    <span class="name">
+                        <b>
+                            cancel
+                        </b>
+                        <a href="#cancel"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>cancel()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="141"
+                            class="link-to-prism">src/app/pages/request/request.page.ts:141</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="confirm"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Async</span>
+                            confirm
+                        </b>
+                        <a href="#confirm"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>confirm()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="146"
+                            class="link-to-prism">src/app/pages/request/request.page.ts:146</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="30"
+                            class="link-to-prism">src/app/pages/request/request.page.ts:30</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="prepareFormValidation"></a>
+                    <span class="name">
+                        <b>
+                            prepareFormValidation
+                        </b>
+                        <a href="#prepareFormValidation"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>prepareFormValidation()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="54"
+                            class="link-to-prism">src/app/pages/request/request.page.ts:54</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="send"></a>
+                    <span class="name">
+                        <b>
+                            send
+                        </b>
+                        <a href="#send"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>send(values)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="134"
+                            class="link-to-prism">src/app/pages/request/request.page.ts:134</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>values</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="day_after_tomorrow"></a>
+                        <span class="name">
+                            <b>
+                            day_after_tomorrow</b>
+                            <a href="#day_after_tomorrow"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/app/pages/request/request.page.ts:14</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="formBuilder"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            formBuilder</b>
+                            <a href="#formBuilder"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://angular.io/api/forms/FormBuilder" target="_blank" >FormBuilder</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/app/pages/request/request.page.ts:25</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="isBusTrip"></a>
+                        <span class="name">
+                            <b>
+                            isBusTrip</b>
+                            <a href="#isBusTrip"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/pages/request/request.page.ts:16</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="request"></a>
+                        <span class="name">
+                            <b>
+                            request</b>
+                            <a href="#request"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{ Language: &#x27;english&#x27; }</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/pages/request/request.page.ts:13</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="tour"></a>
+                        <span class="name">
+                            <b>
+                            tour</b>
+                            <a href="#tour"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{}</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="12" class="link-to-prism">src/app/pages/request/request.page.ts:12</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="two_years_later"></a>
+                        <span class="name">
+                            <b>
+                            two_years_later</b>
+                            <a href="#two_years_later"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/pages/request/request.page.ts:15</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="validationForm"></a>
+                        <span class="name">
+                            <b>
+                            validationForm</b>
+                            <a href="#validationForm"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://angular.io/api/forms/FormGroup" target="_blank" >FormGroup</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/pages/request/request.page.ts:18</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="validationMessages"></a>
+                        <span class="name">
+                            <b>
+                            validationMessages</b>
+                            <a href="#validationMessages"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/pages/request/request.page.ts:19</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { ModalController, NavParams, ToastController } from &#x27;@ionic/angular&#x27;;
+import { FormBuilder, FormGroup, FormControl, Validators } from &#x27;@angular/forms&#x27;;
+
+@Component({
+  selector: &#x27;app-request&#x27;,
+  templateUrl: &#x27;./request.page.html&#x27;,
+  styleUrls: [&#x27;./request.page.scss&#x27;],
+})
+export class RequestPage implements OnInit {
+
+  tour: any &#x3D; {};
+  request: any &#x3D; { Language: &#x27;english&#x27; };
+  day_after_tomorrow: string;
+  two_years_later: string;
+  isBusTrip: boolean;
+
+  validationForm: FormGroup;
+  validationMessages: any;
+
+  constructor(
+    private modalCtrl: ModalController,
+    private navParams: NavParams,
+    private toastCtrl: ToastController,
+    public formBuilder: FormBuilder
+  ) {
+    this.tour &#x3D; navParams.data;
+  }
+
+  ngOnInit() {
+
+    // Prepare form validation
+    this.prepareFormValidation();
+
+    // start date - at the earliest the day after tomorrow
+    let today &#x3D; new Date();
+    let day_after_tomorrow
+      &#x3D; new Date(today.getTime() + 1000 * 60 * 60 * 24 * 2);
+    this.day_after_tomorrow
+      &#x3D; day_after_tomorrow.toISOString().slice(0, 10);
+
+    // end date - at the latest in two years
+    let two_years_later
+      &#x3D; new Date(day_after_tomorrow.getTime()
+        + 1000 * 60 * 60 * 24 * 365 * 2);
+    this.two_years_later &#x3D; two_years_later.toISOString()
+      .slice(0, 10);
+
+    // Detect, if this tour is a bus trip.
+    this.isBusTrip &#x3D; this.tour.Tourtype &#x3D;&#x3D; &#x27;BU&#x27;;
+
+  }
+
+  prepareFormValidation() {
+
+    this.validationForm &#x3D; this.formBuilder.group({
+      DesiredDate: [&#x27;&#x27;, Validators.required],
+      DesiredTime: new FormControl(&#x27;&#x27;, Validators.required),
+      Language: new FormControl(&#x27;english&#x27;),
+      NeedBus: new FormControl(false),
+      FirstName: new FormControl(&#x27;&#x27;, Validators.compose([
+        Validators.minLength(2),
+        Validators.maxLength(30),
+        Validators.pattern(&#x27;[a-zA-Z ]*&#x27;),
+        Validators.required])),
+      LastName: new FormControl(&#x27;&#x27;, Validators.compose([
+        Validators.minLength(2),
+        Validators.maxLength(30),
+        Validators.pattern(&#x27;[a-zA-Z ]*&#x27;),
+        Validators.required])),
+      Email: new FormControl(&#x27;&#x27;, Validators.compose([
+        //Validators.email,
+        Validators.pattern(/^(([^&lt;&gt;()\[\]\\.,;:\s@&quot;]+(\.[^&lt;&gt;()\[\]\\.,;:\s@&quot;]+)*)|(&quot;.+&quot;))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/),
+        Validators.required
+      ]))
+    });
+
+    this.validationMessages &#x3D; {
+      &#x27;DesiredDate&#x27;: [
+        {
+          type: &#x27;required&#x27;,
+          message: &#x27;Date is required.&#x27;
+        }
+      ],
+      &#x27;DesiredTime&#x27;: [
+        {
+          type: &#x27;required&#x27;,
+          message: &#x27;Time is required.&#x27;
+        }
+      ],
+      &#x27;FirstName&#x27;: [
+        {
+          type: &#x27;required&#x27;,
+          message: &#x27;First name is required.&#x27;
+        },
+        {
+          type: &#x27;minlength&#x27;,
+          message: &#x27;First name must be at least 2 chars long.&#x27;
+        },
+        {
+          type: &#x27;maxlength&#x27;,
+          message: &#x27;First name cannot be more than 30 chars long.&#x27;
+        },
+      ],
+      &#x27;LastName&#x27;: [
+        {
+          type: &#x27;required&#x27;,
+          message: &#x27;Last name is required.&#x27;
+        },
+        {
+          type: &#x27;minlength&#x27;,
+          message: &#x27;Last name must be at least 2 chars long.&#x27;
+        },
+        {
+          type: &#x27;maxlength&#x27;,
+          message: &#x27;Last name cannot be more than 30 chars long.&#x27;
+        },
+      ],
+      &#x27;Email&#x27;: [
+        {
+          type: &#x27;required&#x27;,
+          message: &#x27;Email is required.&#x27;
+        },
+        {
+          type: &#x27;pattern&#x27;,
+          message: &#x27;Must be a valid email address.&#x27;
+        },
+      ],
+    }
+
+  }
+
+  // user clicked &#x27;Send request&#x27;
+  send(values) {
+    this.request &#x3D; values;
+    console.log(this.request);
+    this.confirm();
+  }
+
+  // user clicked &#x27;Cancel&#x27;
+  cancel() {
+    this.modalCtrl.dismiss();
+  }
+
+  // Confirmation after sending the request.
+  async confirm() {
+    const toast &#x3D; await this.toastCtrl.create({
+      message: &#x27;Thank you for your request!&lt;br&gt;We will answer you shortly.&#x27;,
+      duration: 3500
+    });
+    toast.present();
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;ion-header&gt;
+  &lt;ion-toolbar&gt;
+    &lt;ion-title&gt;Request&lt;/ion-title&gt;
+    &lt;ion-buttons slot&#x3D;&quot;end&quot;&gt;
+      &lt;ion-button (click)&#x3D;&quot;cancel()&quot;&gt;Cancel&lt;/ion-button&gt;
+    &lt;/ion-buttons&gt;
+  &lt;/ion-toolbar&gt;
+&lt;/ion-header&gt;
+
+&lt;ion-content class&#x3D;&quot;ion-padding&quot;&gt;
+
+  &lt;ion-list&gt;
+
+    &lt;form [formGroup]&#x3D;&quot;validationForm&quot;&gt;
+
+      &lt;!-- Tour info group --&gt;
+      &lt;ion-item-group&gt;
+        &lt;ion-item-divider&gt;
+          &lt;ion-label&gt;Tour&lt;/ion-label&gt;
+        &lt;/ion-item-divider&gt;
+        &lt;ion-item&gt;
+          &lt;ion-thumbnail slot&#x3D;&quot;start&quot;&gt;
+            &lt;img src&#x3D;&quot;https://ionic.andreas-dormann.de/img/small/{{tour.Image}}&quot;&gt;
+          &lt;/ion-thumbnail&gt;
+          &lt;ion-label&gt;
+            &lt;h2 text-wrap&gt;{{tour.Title}}&lt;/h2&gt;
+            &lt;p&gt;Duration: {{tour.Duration}} min&lt;/p&gt;
+          &lt;/ion-label&gt;
+        &lt;/ion-item&gt;
+      &lt;/ion-item-group&gt;
+
+      &lt;!-- Schedule group --&gt;
+      &lt;ion-item-group&gt;
+        &lt;ion-item-divider&gt;
+          &lt;ion-label&gt;Desired schedule&lt;/ion-label&gt;
+        &lt;/ion-item-divider&gt;
+
+        &lt;!-- Date --&gt;
+        &lt;ion-item&gt;
+          &lt;ion-label&gt;Date&lt;/ion-label&gt;
+          &lt;ion-datetime formControlName&#x3D;&quot;DesiredDate&quot; min&#x3D;&quot;{{day_after_tomorrow}}&quot; max&#x3D;&quot;{{two_years_later}}&quot;
+            display-format&#x3D;&quot;DDD, MMMM DD YYYY&quot; picker-format&#x3D;&quot;MMMM DD YYYY&quot;
+            placeholder&#x3D;&quot;Please choose your desired date!&quot;&gt;
+          &lt;/ion-datetime&gt;
+        &lt;/ion-item&gt;
+        &lt;div class&#x3D;&quot;validation-errors&quot;&gt;
+          &lt;ng-container *ngFor&#x3D;&quot;let validation 
+                        of validationMessages.DesiredDate&quot;&gt;
+            &lt;div class&#x3D;&quot;error-message&quot; *ngIf&#x3D;&quot;validationForm.get(&#x27;DesiredDate&#x27;)
+                 .hasError(validation.type) 
+                 &amp;&amp; (validationForm.get(&#x27;DesiredDate&#x27;).dirty 
+                 || validationForm.get(&#x27;DesiredDate&#x27;).touched)&quot;&gt;
+              &lt;ion-icon name&#x3D;&quot;flash&quot;&gt;&lt;/ion-icon&gt;
+              {{ validation.message }}
+            &lt;/div&gt;
+          &lt;/ng-container&gt;
+        &lt;/div&gt;
+
+        &lt;!-- Time --&gt;
+        &lt;ion-item&gt;
+          &lt;ion-label&gt;Time&lt;/ion-label&gt;
+          &lt;ion-datetime formControlName&#x3D;&quot;DesiredTime&quot; hourValues&#x3D;&quot;9,10,11,12,13,14,15,16,17&quot; minuteValues&#x3D;&quot;0,15,30,45&quot;
+            display-format&#x3D;&quot;hh:mm A&quot; picker-format&#x3D;&quot;h mm&quot; placeholder&#x3D;&quot;Please choose your desired time!&quot;&gt;
+          &lt;/ion-datetime&gt;
+        &lt;/ion-item&gt;
+        &lt;div class&#x3D;&quot;validation-errors&quot;&gt;
+          &lt;ng-container *ngFor&#x3D;&quot;let validation 
+                    of validationMessages.DesiredTime&quot;&gt;
+            &lt;div class&#x3D;&quot;error-message&quot; *ngIf&#x3D;&quot;validationForm.get(&#x27;DesiredTime&#x27;)
+                 .hasError(validation.type) 
+                 &amp;&amp; (validationForm.get(&#x27;DesiredTime&#x27;).dirty 
+                 || validationForm.get(&#x27;DesiredTime&#x27;).touched)&quot;&gt;
+              &lt;ion-icon name&#x3D;&quot;flash&quot;&gt;&lt;/ion-icon&gt;
+              {{ validation.message }}
+            &lt;/div&gt;
+          &lt;/ng-container&gt;
+        &lt;/div&gt;
+
+      &lt;/ion-item-group&gt;
+
+      &lt;!-- Language selection group --&gt;
+      &lt;ion-item-group&gt;
+        &lt;ion-item-divider&gt;
+          &lt;ion-label&gt;Language&lt;/ion-label&gt;
+        &lt;/ion-item-divider&gt;
+        &lt;ion-item&gt;
+          &lt;ion-label&gt;The guide should speak&lt;/ion-label&gt;
+          &lt;ion-select formControlName&#x3D;&quot;Language&quot; interface&#x3D;&quot;popover&quot;&gt;
+            &lt;ion-select-option&gt;english&lt;/ion-select-option&gt;
+            &lt;ion-select-option&gt;spanish&lt;/ion-select-option&gt;
+            &lt;ion-select-option&gt;chinese&lt;/ion-select-option&gt;
+            &lt;ion-select-option&gt;german&lt;/ion-select-option&gt;
+            &lt;ion-select-option&gt;french&lt;/ion-select-option&gt;
+            &lt;ion-select-option&gt;italian&lt;/ion-select-option&gt;
+          &lt;/ion-select&gt;
+        &lt;/ion-item&gt;
+      &lt;/ion-item-group&gt;
+
+      &lt;!-- Bus group (only if we have a bus trip) --&gt;
+      &lt;ion-item-group *ngIf&#x3D;&quot;isBusTrip&quot;&gt;
+        &lt;ion-item-divider&gt;
+          &lt;ion-label&gt;Bus&lt;/ion-label&gt;
+        &lt;/ion-item-divider&gt;
+        &lt;ion-item&gt;
+          &lt;ion-label&gt;We need a bus.&lt;/ion-label&gt;
+          &lt;ion-toggle formControlName&#x3D;&quot;NeedBus&quot;&gt;&lt;/ion-toggle&gt;
+        &lt;/ion-item&gt;
+      &lt;/ion-item-group&gt;
+
+      &lt;!-- Contact information group --&gt;
+      &lt;ion-item-group&gt;
+        &lt;ion-item-divider&gt;
+          &lt;ion-label&gt;Your contact information&lt;/ion-label&gt;
+        &lt;/ion-item-divider&gt;
+
+        &lt;!-- First name --&gt;
+        &lt;ion-item&gt;
+          &lt;ion-label&gt;First name&lt;/ion-label&gt;
+          &lt;ion-input formControlName&#x3D;&quot;FirstName&quot; type&#x3D;&quot;text&quot;&gt;
+          &lt;/ion-input&gt;
+        &lt;/ion-item&gt;
+        &lt;div class&#x3D;&quot;validation-errors&quot;&gt;
+          &lt;ng-container *ngFor&#x3D;&quot;let validation
+                    of validationMessages.FirstName&quot;&gt;
+            &lt;div class&#x3D;&quot;error-message&quot; *ngIf&#x3D;&quot;validationForm.get(&#x27;FirstName&#x27;)
+                 .hasError(validation.type) 
+                 &amp;&amp; (validationForm.get(&#x27;FirstName&#x27;).dirty 
+                 || validationForm.get(&#x27;FirstName&#x27;).touched)&quot;&gt;
+              &lt;ion-icon name&#x3D;&quot;flash&quot;&gt;&lt;/ion-icon&gt;
+              {{ validation.message }}
+            &lt;/div&gt;
+          &lt;/ng-container&gt;
+        &lt;/div&gt;
+
+        &lt;!-- Last name --&gt;
+        &lt;ion-item&gt;
+          &lt;ion-label&gt;Last name&lt;/ion-label&gt;
+          &lt;ion-input formControlName&#x3D;&quot;LastName&quot; type&#x3D;&quot;text&quot;&gt;
+          &lt;/ion-input&gt;
+        &lt;/ion-item&gt;
+        &lt;div class&#x3D;&quot;validation-errors&quot;&gt;
+          &lt;ng-container *ngFor&#x3D;&quot;let validation 
+                    of validationMessages.LastName&quot;&gt;
+            &lt;div class&#x3D;&quot;error-message&quot; *ngIf&#x3D;&quot;validationForm.get(&#x27;LastName&#x27;)
+                 .hasError(validation.type) 
+                 &amp;&amp; (validationForm.get(&#x27;LastName&#x27;).dirty 
+                 || validationForm.get(&#x27;LastName&#x27;).touched)&quot;&gt;
+              &lt;ion-icon name&#x3D;&quot;flash&quot;&gt;&lt;/ion-icon&gt;
+              {{ validation.message }}
+            &lt;/div&gt;
+          &lt;/ng-container&gt;
+        &lt;/div&gt;
+
+        &lt;!-- Email --&gt;
+        &lt;ion-item&gt;
+          &lt;ion-label&gt;Email&lt;/ion-label&gt;
+          &lt;ion-input formControlName&#x3D;&quot;Email&quot; type&#x3D;&quot;email&quot;&gt;
+          &lt;/ion-input&gt;
+        &lt;/ion-item&gt;
+        &lt;div class&#x3D;&quot;validation-errors&quot;&gt;
+          &lt;ng-container *ngFor&#x3D;&quot;let validation 
+                                of validationMessages.Email&quot;&gt;
+            &lt;div class&#x3D;&quot;error-message&quot; *ngIf&#x3D;&quot;validationForm.get(&#x27;Email&#x27;)
+                 .hasError(validation.type) 
+                 &amp;&amp; (validationForm.get(&#x27;Email&#x27;).dirty 
+                 || validationForm.get(&#x27;Email&#x27;).touched)&quot;&gt;
+              &lt;ion-icon name&#x3D;&quot;flash&quot;&gt;&lt;/ion-icon&gt;
+              {{ validation.message }}
+            &lt;/div&gt;
+          &lt;/ng-container&gt;
+        &lt;/div&gt;
+
+      &lt;/ion-item-group&gt;
+
+    &lt;/form&gt;
+
+  &lt;/ion-list&gt;
+
+&lt;/ion-content&gt;
+
+&lt;ion-footer class&#x3D;&quot;ion-padding&quot;&gt;
+  &lt;ion-button expand&#x3D;&quot;block&quot; type&#x3D;&quot;submit&quot; [disabled]&#x3D;&quot;!validationForm.valid&quot; (click)&#x3D;&quot;send(validationForm.value)&quot;&gt;
+    Send request
+  &lt;/ion-button&gt;
+&lt;/ion-footer&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./request.page.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.error-message {
+  color: red;
+  font-size: small;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><ion-header>  <ion-toolbar>    <ion-title>Request</ion-title>    <ion-buttons slot="end">      <ion-button (click)="cancel()">Cancel</ion-button>    </ion-buttons>  </ion-toolbar></ion-header><ion-content class="ion-padding">  <ion-list>    <form [formGroup]="validationForm">      <!-- Tour info group -->      <ion-item-group>        <ion-item-divider>          <ion-label>Tour</ion-label>        </ion-item-divider>        <ion-item>          <ion-thumbnail slot="start">            <img src="https://ionic.andreas-dormann.de/img/small/{{tour.Image}}">          </ion-thumbnail>          <ion-label>            <h2 text-wrap>{{tour.Title}}</h2>            <p>Duration: {{tour.Duration}} min</p>          </ion-label>        </ion-item>      </ion-item-group>      <!-- Schedule group -->      <ion-item-group>        <ion-item-divider>          <ion-label>Desired schedule</ion-label>        </ion-item-divider>        <!-- Date -->        <ion-item>          <ion-label>Date</ion-label>          <ion-datetime formControlName="DesiredDate" min="{{day_after_tomorrow}}" max="{{two_years_later}}"            display-format="DDD, MMMM DD YYYY" picker-format="MMMM DD YYYY"            placeholder="Please choose your desired date!">          </ion-datetime>        </ion-item>        <div class="validation-errors">          <ng-container *ngFor="let validation                         of validationMessages.DesiredDate">            <div class="error-message" *ngIf="validationForm.get(\'DesiredDate\')                 .hasError(validation.type)                  && (validationForm.get(\'DesiredDate\').dirty                  || validationForm.get(\'DesiredDate\').touched)">              <ion-icon name="flash"></ion-icon>              {{ validation.message }}            </div>          </ng-container>        </div>        <!-- Time -->        <ion-item>          <ion-label>Time</ion-label>          <ion-datetime formControlName="DesiredTime" hourValues="9,10,11,12,13,14,15,16,17" minuteValues="0,15,30,45"            display-format="hh:mm A" picker-format="h mm" placeholder="Please choose your desired time!">          </ion-datetime>        </ion-item>        <div class="validation-errors">          <ng-container *ngFor="let validation                     of validationMessages.DesiredTime">            <div class="error-message" *ngIf="validationForm.get(\'DesiredTime\')                 .hasError(validation.type)                  && (validationForm.get(\'DesiredTime\').dirty                  || validationForm.get(\'DesiredTime\').touched)">              <ion-icon name="flash"></ion-icon>              {{ validation.message }}            </div>          </ng-container>        </div>      </ion-item-group>      <!-- Language selection group -->      <ion-item-group>        <ion-item-divider>          <ion-label>Language</ion-label>        </ion-item-divider>        <ion-item>          <ion-label>The guide should speak</ion-label>          <ion-select formControlName="Language" interface="popover">            <ion-select-option>english</ion-select-option>            <ion-select-option>spanish</ion-select-option>            <ion-select-option>chinese</ion-select-option>            <ion-select-option>german</ion-select-option>            <ion-select-option>french</ion-select-option>            <ion-select-option>italian</ion-select-option>          </ion-select>        </ion-item>      </ion-item-group>      <!-- Bus group (only if we have a bus trip) -->      <ion-item-group *ngIf="isBusTrip">        <ion-item-divider>          <ion-label>Bus</ion-label>        </ion-item-divider>        <ion-item>          <ion-label>We need a bus.</ion-label>          <ion-toggle formControlName="NeedBus"></ion-toggle>        </ion-item>      </ion-item-group>      <!-- Contact information group -->      <ion-item-group>        <ion-item-divider>          <ion-label>Your contact information</ion-label>        </ion-item-divider>        <!-- First name -->        <ion-item>          <ion-label>First name</ion-label>          <ion-input formControlName="FirstName" type="text">          </ion-input>        </ion-item>        <div class="validation-errors">          <ng-container *ngFor="let validation                    of validationMessages.FirstName">            <div class="error-message" *ngIf="validationForm.get(\'FirstName\')                 .hasError(validation.type)                  && (validationForm.get(\'FirstName\').dirty                  || validationForm.get(\'FirstName\').touched)">              <ion-icon name="flash"></ion-icon>              {{ validation.message }}            </div>          </ng-container>        </div>        <!-- Last name -->        <ion-item>          <ion-label>Last name</ion-label>          <ion-input formControlName="LastName" type="text">          </ion-input>        </ion-item>        <div class="validation-errors">          <ng-container *ngFor="let validation                     of validationMessages.LastName">            <div class="error-message" *ngIf="validationForm.get(\'LastName\')                 .hasError(validation.type)                  && (validationForm.get(\'LastName\').dirty                  || validationForm.get(\'LastName\').touched)">              <ion-icon name="flash"></ion-icon>              {{ validation.message }}            </div>          </ng-container>        </div>        <!-- Email -->        <ion-item>          <ion-label>Email</ion-label>          <ion-input formControlName="Email" type="email">          </ion-input>        </ion-item>        <div class="validation-errors">          <ng-container *ngFor="let validation                                 of validationMessages.Email">            <div class="error-message" *ngIf="validationForm.get(\'Email\')                 .hasError(validation.type)                  && (validationForm.get(\'Email\').dirty                  || validationForm.get(\'Email\').touched)">              <ion-icon name="flash"></ion-icon>              {{ validation.message }}            </div>          </ng-container>        </div>      </ion-item-group>    </form>  </ion-list></ion-content><ion-footer class="ion-padding">  <ion-button expand="block" type="submit" [disabled]="!validationForm.valid" (click)="send(validationForm.value)">    Send request  </ion-button></ion-footer></div>'
+    var COMPONENTS = [{'name': 'AboutComponent', 'selector': 'app-about'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'DetailsPage', 'selector': 'app-details'},{'name': 'FavoritesPage', 'selector': 'app-favorites'},{'name': 'HomePage', 'selector': 'app-home'},{'name': 'ListPage', 'selector': 'app-list'},{'name': 'MapPage', 'selector': 'app-map'},{'name': 'RegionsPage', 'selector': 'app-regions'},{'name': 'RequestPage', 'selector': 'app-request'},{'name': 'SlideshowPage', 'selector': 'app-slideshow'},{'name': 'TourTypesPage', 'selector': 'app-tour-types'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'RequestPage'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'RequestPage.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
